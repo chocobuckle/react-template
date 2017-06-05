@@ -1,5 +1,5 @@
 {
-  "name": "react-template",
+  "name": "github-battle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -21,6 +25,8 @@
     "babel-preset-env": "^1.5.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
     "html-webpack-plugin": "^2.28.0",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
