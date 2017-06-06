@@ -5,7 +5,7 @@
 		"es6": true
 	},
 	"extends": [
-		"eslint:recommended",
+		"airbnb",
 		"plugin:react/recommended"
 	],
 	"parserOptions": {
@@ -20,13 +20,8 @@
   ],
 	"rules": {
 		"linebreak-style": "off",
-		"no-undef": "off",
-		"no-unused-vars": "off",
-		"no-console": "off",
-		"eqeqeq": "error",
-		"semi": "error",
-		"eol-last": "error",
-		"indent": [ "error", "tab"],
-		"quotes": ["error", "single"]
+		"no-var": "off",
+		"react/jsx-filename-extension": "off",
+		"no-console": "off"
 	}
 }
