@@ -21,6 +21,8 @@
 	"rules": {
 		"linebreak-style": "off",
 		"no-var": "off",
+    "indent": [ "error", "tab"],
+    "no-tabs": "off",
 		"react/jsx-filename-extension": "off",
 		"no-console": "off"
 	}
